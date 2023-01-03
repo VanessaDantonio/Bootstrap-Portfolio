@@ -1,0 +1,119 @@
+/* Global styles */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+    color: bisque;
+    transition: all .35s;
+}
+
+a:hover, a:focus {
+    color: aliceblue;
+}
+
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+
+hr.light {
+    border-color: aquamarine;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    font-size: 50px;
+}
+
+/* Navigation bar styles */
+#mainNav {
+    border-color: brown;
+    background-color: pink;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+    color: blanchedalmond;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
+    color: rgb(238, 225, 204);
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: rgb(96, 25, 47);
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(96, 25, 47);
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+    color: blanchedalmond;
+}
+
+/* Hero section */
+header.masthead {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 800px;
+    color: rgb(96, 25, 47);
+    background: url("../images/PXL_20221220_103749892.PORTRAIT.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.masthead .header-text {
+    max-width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+header.masthead .header-text h1 {
+    font-size: 30px;
+}
