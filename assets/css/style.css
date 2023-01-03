@@ -10,12 +10,13 @@ body {
 }
 
 a {
-    color: bisque;
+    color: rgb(96, 25, 47);
     transition: all .35s;
+    text-decoration: none;
 }
 
 a:hover, a:focus {
-    color: aliceblue;
+    color: blanchedalmond;
 }
 
 hr {
@@ -99,8 +100,8 @@ section h2 {
 header.masthead {
     position: relative;
     width: 100%;
-    height: 100%;
-    padding-top: 200px;
+    height: 140%;
+    padding-top: 400px;
     padding-left: 800px;
     color: rgb(96, 25, 47);
     background: url("../images/PXL_20221220_103749892.PORTRAIT.jpg");
@@ -116,4 +117,8 @@ header.masthead .header-text {
 
 header.masthead .header-text h1 {
     font-size: 30px;
+}
+
+header.masthead .header-text h2 {
+    font-size: 25px;
 }
