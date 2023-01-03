@@ -1,0 +1,339 @@
+/* Global styles */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+    color: rgb(96, 25, 47);
+    transition: all .35s;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: blanchedalmond;
+}
+
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+
+hr.light {
+    border-color: aquamarine;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    font-size: 50px;
+}
+
+/* Navigation bar styles */
+#mainNav {
+    border-color: brown;
+    background-color: pink;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+    color: blanchedalmond;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
+    color: rgb(238, 225, 204);
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: rgb(96, 25, 47);
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(96, 25, 47);
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+    color: blanchedalmond;
+}
+
+/* Hero section */
+header.masthead {
+    position: relative;
+    width: 100%;
+    height: 140%;
+    padding-top: 400px;
+    padding-left: 800px;
+    color: rgb(96, 25, 47);
+    background: url("../images/PXL_20221220_103749892.PORTRAIT.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.masthead .header-text {
+    max-width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+header.masthead .header-text h1 {
+    font-size: 30px;
+}
+
+header.masthead .header-text h2 {
+    font-size: 25px;
+}
+
+.page-wrapper {
+    background: url("../images/PXL_20220415_164142880.MP~9.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+#about-content {
+    padding: 35px;
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+.container-fluid h2 {
+    padding-bottom: 50px;
+}
+
+#skills {
+    background-color: whitesmoke;
+}
+
+h2{
+    padding-bottom: 60px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    max-height: 900px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 300px;
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.flex-item h3 {
+    margin-bottom: 20px;
+}
+
+.flex-item ul {
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+.flex-item ul li{
+    line-height: 4;
+}
+
+#html,
+#mssql {
+    block-size: 53px;
+}
+
+#css {
+    block-size: 48px;
+}
+
+#js,
+#javascript {
+    block-size: 45px;
+}
+
+#sass,
+#nodejs {
+    block-size: 33px;
+}
+
+#bootstrap,
+#react-bootstrap,
+#github-pages,
+#typescript {
+    block-size: 38px;
+}
+
+#react,
+#styled-components,
+#nestjs,
+#digital-ocean,
+#dart,
+#postgresql,
+#firebase {
+    block-size: 43px;
+}
+
+#redux,
+#material-ui,
+#flutter {
+    block-size: 35px;
+}
+
+#react-router {
+    block-size: 30px;
+}
+
+#express {
+    block-size: 20px;
+}
+
+#heroku,
+#git {
+    block-size: 50px;
+}
+
+#mongodb {
+    block-size: 28px;
+}
+
+#experience {
+    background-color: whitesmoke;
+}
+.eduexp {
+    position: relative;
+}
+
+.eduexp::before {
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: rgba(var(--c-brand-rgb), 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.eduexp::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: var(--c-brand);
+    position: absolute;
+    left: -7px;
+    top: 0;
+}
+
+#projects {
+    background-color: whitesmoke;
+}
+
+  .cardContainer {
+        text-align: center;
+  }
+
+  .cardContainer img {
+    width: 100%;
+  }
+.column-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 50px;
+    padding: 20px;
+    height: 500px;
+}
+
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: pink;
+}
+
+#contact input.form-control {
+    height: 44px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(241, 235, 236);
+    padding-top: 80px;
+}
+
+footer h4 {
+    color: black;
+    margin-bottom: 24px;
+}
+
+footer p,
+footer li, 
+footer li a {
+    color: black;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-top: 6px;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom a {
+    color: black;
+}
