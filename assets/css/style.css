@@ -124,6 +124,7 @@ header.masthead .header-text h2 {
     font-size: 25px;
 }
 
+/*About me */
 .page-wrapper {
     background: url("../images/PXL_20220415_164142880.MP~9.jpg");
     background-size: cover;
@@ -140,6 +141,7 @@ header.masthead .header-text h2 {
     padding-bottom: 50px;
 }
 
+/* Skills */
 #skills {
     background-color: whitesmoke;
 }
@@ -236,9 +238,11 @@ h2{
     block-size: 28px;
 }
 
+/* Emperience */
 #experience {
     background-color: whitesmoke;
 }
+
 .eduexp {
     position: relative;
 }
@@ -263,39 +267,49 @@ h2{
     top: 0;
 }
 
+/* Projects */
 #projects {
     background-color: whitesmoke;
 }
 
-  .cardContainer {
-        text-align: center;
-  }
+.cardContainer {
+    text-align: center;
+}
 
-  .cardContainer img {
+.cardContainer img {
     width: 100%;
-  }
+    max-height: 300px;
+}
+
 .column-projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .card {
     margin: 50px;
     padding: 20px;
     height: 500px;
 }
 
+/* Contact me */
 #contact .form-control {
     border-radius: 0;
 }
 
 #contact .form-control:focus {
     box-shadow: none;
-    border-color: pink;
+    border-color: rgb(96, 25, 47);
 }
 
 #contact input.form-control {
     height: 44px;
+}
+
+#contact button {
+    background-color: pink;
+    color: white;
 }
 
 /* Footer */
@@ -303,16 +317,20 @@ footer {
     background-color: rgb(241, 235, 236);
     padding-top: 80px;
 }
+ footer .col-md-3{
+    position: absolute;
+    right: 0;
+ }
 
 footer h4 {
-    color: black;
+    color: rgb(96, 25, 47);
     margin-bottom: 24px;
 }
 
 footer p,
 footer li, 
 footer li a {
-    color: black;
+    color: rgb(96, 25, 47);
 }
 
 footer ul {
@@ -325,15 +343,20 @@ footer ul li {
 }
 
 .footer-top {
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgb(96, 25, 47);
 }
 
 .footer-bottom {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 600px;
 }
 
 .footer-bottom a {
-    color: black;
+    color: rgb(96, 25, 47);
+}
+
+.social-icon {
+    background-color: pink;
 }
